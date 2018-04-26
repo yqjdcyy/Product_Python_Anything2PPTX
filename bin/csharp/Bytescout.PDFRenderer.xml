@@ -1,0 +1,2578 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Bytescout.PDFRenderer</name>
+    </assembly>
+    <members>
+        <member name="T:LibTiff.Classic.TiffTag">
+            <summary>
+            TIFF tag definitions.
+            </summary>
+            <remarks>
+            Joris Van Damme maintains
+            <a href="http://www.awaresystems.be/imaging/tiff/tifftags.html" target="_blank">
+            TIFF Tag Reference</a>, good source of tag information. It's an overview of known TIFF
+            Tags with properties, short description, and other useful information.
+            </remarks>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IGNORE">
+            <summary>
+            Tag placeholder
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SUBFILETYPE">
+            <summary>
+            Subfile data descriptor.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.FileType" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.OSUBFILETYPE">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Kind of data in subfile. For the list of possible values, see <see cref="T:LibTiff.Classic.OFileType" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IMAGEWIDTH">
+            <summary>
+            Image width in pixels.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IMAGELENGTH">
+            <summary>
+            Image height in pixels.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BITSPERSAMPLE">
+            <summary>
+            Bits per channel (sample).
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.COMPRESSION">
+            <summary>
+            Data compression technique.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.Compression" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PHOTOMETRIC">
+            <summary>
+            Photometric interpretation.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.Photometric" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.THRESHHOLDING">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Thresholding used on data. For the list of possible values, see <see cref="T:LibTiff.Classic.Threshold" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CELLWIDTH">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Dithering matrix width.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CELLLENGTH">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Dithering matrix height.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FILLORDER">
+            <summary>
+            Data order within a byte.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.FillOrder" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DOCUMENTNAME">
+            <summary>
+            Name of document which holds for image.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IMAGEDESCRIPTION">
+            <summary>
+            Information about image.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MAKE">
+            <summary>
+            Scanner manufacturer name.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MODEL">
+            <summary>
+            Scanner model name/number.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.STRIPOFFSETS">
+            <summary>
+            Offsets to data strips.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ORIENTATION">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Image orientation. For the list of possible values, see <see cref="T:LibTiff.Classic.Orientation" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SAMPLESPERPIXEL">
+            <summary>
+            Samples per pixel.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ROWSPERSTRIP">
+            <summary>
+            Rows per strip of data.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.STRIPBYTECOUNTS">
+            <summary>
+            Bytes counts for strips.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MINSAMPLEVALUE">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Minimum sample value.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MAXSAMPLEVALUE">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Maximum sample value.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.XRESOLUTION">
+            <summary>
+            Pixels/resolution in x.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.YRESOLUTION">
+            <summary>
+            Pixels/resolution in y.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PLANARCONFIG">
+            <summary>
+            Storage organization.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.PlanarConfig" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PAGENAME">
+            <summary>
+            Page name image is from.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.XPOSITION">
+            <summary>
+            X page offset of image lhs.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.YPOSITION">
+            <summary>
+            Y page offset of image lhs.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FREEOFFSETS">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Byte offset to free block.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FREEBYTECOUNTS">
+            <summary>
+            [obsoleted by TIFF rev. 5.0]<br />
+            Sizes of free blocks.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GRAYRESPONSEUNIT">
+            <summary>
+            [obsoleted by TIFF rev. 6.0]<br />
+            Gray scale curve accuracy.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.GrayResponseUnit" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GRAYRESPONSECURVE">
+            <summary>
+            [obsoleted by TIFF rev. 6.0]<br />
+            Gray scale response curve.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GROUP3OPTIONS">
+            <summary>
+            Options for CCITT Group 3 fax encoding. 32 flag bits.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.Group3Opt" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.T4OPTIONS">
+            <summary>
+            TIFF 6.0 proper name alias for GROUP3OPTIONS.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GROUP4OPTIONS">
+            <summary>
+            Options for CCITT Group 4 fax encoding. 32 flag bits.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.Group3Opt" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.T6OPTIONS">
+            <summary>
+            TIFF 6.0 proper name alias for GROUP4OPTIONS.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.RESOLUTIONUNIT">
+            <summary>
+            Units of resolutions.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.ResUnit" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PAGENUMBER">
+            <summary>
+            Page numbers of multi-page.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.COLORRESPONSEUNIT">
+            <summary>
+            [obsoleted by TIFF rev. 6.0]<br />
+            Color curve accuracy.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.ColorResponseUnit" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TRANSFERFUNCTION">
+            <summary>
+            Colorimetry info.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SOFTWARE">
+            <summary>
+            Name &amp; release.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DATETIME">
+            <summary>
+            Creation date and time.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ARTIST">
+            <summary>
+            Creator of image.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.HOSTCOMPUTER">
+            <summary>
+            Machine where created.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PREDICTOR">
+            <summary>
+            Prediction scheme w/ LZW.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.Predictor" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.WHITEPOINT">
+            <summary>
+            Image white point.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PRIMARYCHROMATICITIES">
+            <summary>
+            Primary chromaticities.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.COLORMAP">
+            <summary>
+            RGB map for pallette image.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.HALFTONEHINTS">
+            <summary>
+            Highlight + shadow info.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TILEWIDTH">
+            <summary>
+            Tile width in pixels.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TILELENGTH">
+            <summary>
+            Tile height in pixels.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TILEOFFSETS">
+            <summary>
+            Offsets to data tiles.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TILEBYTECOUNTS">
+            <summary>
+            Byte counts for tiles.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BADFAXLINES">
+            <summary>
+            Lines with wrong pixel count.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CLEANFAXDATA">
+            <summary>
+            Regenerated line info.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.CleanFaxData" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CONSECUTIVEBADFAXLINES">
+            <summary>
+            Max consecutive bad lines.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SUBIFD">
+            <summary>
+            Subimage descriptors.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.INKSET">
+            <summary>
+            Inks in separated image.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.InkSet" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.INKNAMES">
+            <summary>
+            ASCII names of inks.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.NUMBEROFINKS">
+            <summary>
+            Number of inks.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DOTRANGE">
+            <summary>
+            0% and 100% dot codes.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TARGETPRINTER">
+            <summary>
+            Separation target.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXTRASAMPLES">
+            <summary>
+            Information about extra samples.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.ExtraSample" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SAMPLEFORMAT">
+            <summary>
+            Data sample format.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.SampleFormat" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SMINSAMPLEVALUE">
+            <summary>
+            Variable MinSampleValue.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SMAXSAMPLEVALUE">
+            <summary>
+            Variable MaxSampleValue.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CLIPPATH">
+            <summary>
+            ClipPath. Introduced post TIFF rev 6.0 by Adobe TIFF technote 2.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.XCLIPPATHUNITS">
+            <summary>
+            XClipPathUnits. Introduced post TIFF rev 6.0 by Adobe TIFF technote 2.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.YCLIPPATHUNITS">
+            <summary>
+            YClipPathUnits. Introduced post TIFF rev 6.0 by Adobe TIFF technote 2.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.INDEXED">
+            <summary>
+            Indexed. Introduced post TIFF rev 6.0 by Adobe TIFF Technote 3.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGTABLES">
+            <summary>
+            JPEG table stream. Introduced post TIFF rev 6.0.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.OPIPROXY">
+            <summary>
+            OPI Proxy. Introduced post TIFF rev 6.0 by Adobe TIFF technote.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGPROC">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            JPEG processing algorithm.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.JpegProc" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGIFOFFSET">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            Pointer to SOI marker.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGIFBYTECOUNT">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            JFIF stream length
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGRESTARTINTERVAL">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            Restart interval length.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGLOSSLESSPREDICTORS">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            Lossless proc predictor.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGPOINTTRANSFORM">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            Lossless point transform.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGQTABLES">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            Q matrice offsets.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGDCTABLES">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            DCT table offsets.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGACTABLES">
+            <summary>
+            [obsoleted by Technical Note #2 which specifies a revised JPEG-in-TIFF scheme]<br />
+            AC coefficient offsets.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.YCBCRCOEFFICIENTS">
+            <summary>
+            RGB -&gt; YCbCr transform.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.YCBCRSUBSAMPLING">
+            <summary>
+            YCbCr subsampling factors.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.YCBCRPOSITIONING">
+            <summary>
+            Subsample positioning.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.YCbCrPosition" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REFERENCEBLACKWHITE">
+            <summary>
+            Colorimetry info.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.XMLPACKET">
+            <summary>
+            XML packet. Introduced post TIFF rev 6.0 by Adobe XMP Specification, January 2004.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.OPIIMAGEID">
+            <summary>
+            OPI ImageID. Introduced post TIFF rev 6.0 by Adobe TIFF technote.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REFPTS">
+            <summary>
+            Image reference points. Private tag registered to Island Graphics.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REGIONTACKPOINT">
+            <summary>
+            Region-xform tack point. Private tag registered to Island Graphics.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REGIONWARPCORNERS">
+            <summary>
+            Warp quadrilateral. Private tag registered to Island Graphics.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REGIONAFFINE">
+            <summary>
+            Affine transformation matrix. Private tag registered to Island Graphics.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MATTEING">
+            <summary>
+            [obsoleted by TIFF rev. 6.0]<br />
+            Use EXTRASAMPLE tag. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DATATYPE">
+            <summary>
+            [obsoleted by TIFF rev. 6.0]<br />
+            Use SAMPLEFORMAT tag. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IMAGEDEPTH">
+            <summary>
+            Z depth of image. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.TILEDEPTH">
+            <summary>
+            Z depth/data tile. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_IMAGEFULLWIDTH">
+            <summary>
+            Full image size in X. This tag is set when an image has been cropped out of a larger
+            image. It reflect width of the original uncropped image. The XPOSITION tag can be used
+            to determine the position of the smaller image in the larger one.
+            Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_IMAGEFULLLENGTH">
+            <summary>
+            Full image size in Y. This tag is set when an image has been cropped out of a larger
+            image. It reflect height of the original uncropped image. The YPOSITION can be used
+            to determine the position of the smaller image in the larger one.
+            Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_TEXTUREFORMAT">
+            <summary>
+            Texture map format. Used to identify special image modes and data used by Pixar's
+            texture formats. Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_WRAPMODES">
+            <summary>
+            S&amp;T wrap modes. Used to identify special image modes and data used by Pixar's
+            texture formats. Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_FOVCOT">
+            <summary>
+            Cotan(fov) for env. maps. Used to identify special image modes and data used by
+            Pixar's texture formats. Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_MATRIX_WORLDTOSCREEN">
+            <summary>
+            Used to identify special image modes and data used by Pixar's texture formats.
+            Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXAR_MATRIX_WORLDTOCAMERA">
+            <summary>
+            Used to identify special image modes and data used by Pixar's texture formats.
+            Private tag registered to Pixar.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.WRITERSERIALNUMBER">
+            <summary>
+            Device serial number. Private tag registered to Eastman Kodak.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.COPYRIGHT">
+            <summary>
+            Copyright string. This tag is listed in the TIFF rev. 6.0 w/ unknown ownership.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.RICHTIFFIPTC">
+            <summary>
+            IPTC TAG from RichTIFF specifications.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8SITE">
+            <summary>
+            Site name. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8COLORSEQUENCE">
+            <summary>
+            Color seq. [RGB, CMYK, etc]. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8HEADER">
+            <summary>
+            DDES Header. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8RASTERPADDING">
+            <summary>
+            Raster scanline padding. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8BITSPERRUNLENGTH">
+            <summary>
+            The number of bits in short run. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8BITSPEREXTENDEDRUNLENGTH">
+            <summary>
+            The number of bits in long run. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8COLORTABLE">
+            <summary>
+            LW colortable. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8IMAGECOLORINDICATOR">
+            <summary>
+            BP/BL image color switch. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8BKGCOLORINDICATOR">
+            <summary>
+            BP/BL bg color switch. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8IMAGECOLORVALUE">
+            <summary>
+            BP/BL image color value. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8BKGCOLORVALUE">
+            <summary>
+            BP/BL bg color value. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8PIXELINTENSITYRANGE">
+            <summary>
+            MP pixel intensity value. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8TRANSPARENCYINDICATOR">
+            <summary>
+            HC transparency switch. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8COLORCHARACTERIZATION">
+            <summary>
+            Color characterization table. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8HCUSAGE">
+            <summary>
+            HC usage indicator. Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8TRAPINDICATOR">
+            <summary>
+            Trapping indicator (untrapped = 0, trapped = 1). Reserved for ANSI IT8 TIFF/IT.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.IT8CMYKEQUIVALENT">
+            <summary>
+            CMYK color equivalents.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FRAMECOUNT">
+            <summary>
+            Sequence Frame Count. Private tag registered to Texas Instruments.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PHOTOSHOP">
+            <summary>
+            Private tag registered to Adobe for PhotoShop.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIFIFD">
+            <summary>
+            Pointer to EXIF private directory. This tag is documented in EXIF specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ICCPROFILE">
+            <summary>
+            ICC profile data. ?? Private tag registered to Adobe. ??
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JBIGOPTIONS">
+            <summary>
+            JBIG options. Private tag registered to Pixel Magic.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GPSIFD">
+            <summary>
+            Pointer to GPS private directory. This tag is documented in EXIF specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FAXRECVPARAMS">
+            <summary>
+            Encoded Class 2 ses. params. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FAXSUBADDRESS">
+            <summary>
+            Received SubAddr string. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FAXRECVTIME">
+            <summary>
+            Receive time (secs). Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FAXDCS">
+            <summary>
+            Encoded fax ses. params, Table 2/T.30. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.STONITS">
+            <summary>
+            Sample value to Nits. Private tag registered to SGI.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FEDEX_EDR">
+            <summary>
+            Private tag registered to FedEx.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.INTEROPERABILITYIFD">
+            <summary>
+            Pointer to Interoperability private directory.
+            This tag is documented in EXIF specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DNGVERSION">
+            <summary>
+            DNG version number. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DNGBACKWARDVERSION">
+            <summary>
+            DNG compatibility version. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.UNIQUECAMERAMODEL">
+            <summary>
+            Name for the camera model. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.LOCALIZEDCAMERAMODEL">
+            <summary>
+            Localized camera model name. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CFAPLANECOLOR">
+            <summary>
+            CFAPattern-&gt;LinearRaw space mapping. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CFALAYOUT">
+            <summary>
+            Spatial layout of the CFA. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.LINEARIZATIONTABLE">
+            <summary>
+            Lookup table description. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BLACKLEVELREPEATDIM">
+            <summary>
+            Repeat pattern size for the BlackLevel tag. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BLACKLEVEL">
+            <summary>
+            Zero light encoding level. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BLACKLEVELDELTAH">
+            <summary>
+            Zero light encoding level differences (columns). Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BLACKLEVELDELTAV">
+            <summary>
+            Zero light encoding level differences (rows). Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.WHITELEVEL">
+            <summary>
+            Fully saturated encoding level. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DEFAULTSCALE">
+            <summary>
+            Default scale factors. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DEFAULTCROPORIGIN">
+            <summary>
+            Origin of the final image area. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DEFAULTCROPSIZE">
+            <summary>
+            Size of the final image area. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.COLORMATRIX1">
+            <summary>
+            XYZ-&gt;reference color space transformation matrix 1.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.COLORMATRIX2">
+            <summary>
+            XYZ-&gt;reference color space transformation matrix 2.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CAMERACALIBRATION1">
+            <summary>
+            Calibration matrix 1. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CAMERACALIBRATION2">
+            <summary>
+            Calibration matrix 2. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REDUCTIONMATRIX1">
+            <summary>
+            Dimensionality reduction matrix 1. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.REDUCTIONMATRIX2">
+            <summary>
+            Dimensionality reduction matrix 2. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ANALOGBALANCE">
+            <summary>
+            Gain applied the stored raw values. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ASSHOTNEUTRAL">
+            <summary>
+            Selected white balance in linear reference space.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ASSHOTWHITEXY">
+            <summary>
+            Selected white balance in x-y chromaticity coordinates.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BASELINEEXPOSURE">
+            <summary>
+            How much to move the zero point. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BASELINENOISE">
+            <summary>
+            Relative noise level. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BASELINESHARPNESS">
+            <summary>
+            Relative amount of sharpening. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BAYERGREENSPLIT">
+            <summary>
+            How closely the values of the green pixels in the blue/green rows 
+            track the values of the green pixels in the red/green rows.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.LINEARRESPONSELIMIT">
+            <summary>
+            Non-linear encoding range. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CAMERASERIALNUMBER">
+            <summary>
+            Camera's serial number. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.LENSINFO">
+            <summary>
+            Information about the lens.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CHROMABLURRADIUS">
+            <summary>
+            Chroma blur radius. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ANTIALIASSTRENGTH">
+            <summary>
+            Relative strength of the camera's anti-alias filter.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SHADOWSCALE">
+            <summary>
+            Used by Adobe Camera Raw. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DNGPRIVATEDATA">
+            <summary>
+            Manufacturer's private data. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MAKERNOTESAFETY">
+            <summary>
+            Whether the EXIF MakerNote tag is safe to preserve along with the rest of the EXIF data.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CALIBRATIONILLUMINANT1">
+            <summary>
+            Illuminant 1. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CALIBRATIONILLUMINANT2">
+            <summary>
+            Illuminant 2. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.BESTQUALITYSCALE">
+            <summary>
+            Best quality multiplier. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.RAWDATAUNIQUEID">
+            <summary>
+            Unique identifier for the raw image data. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ORIGINALRAWFILENAME">
+            <summary>
+            File name of the original raw file. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ORIGINALRAWFILEDATA">
+            <summary>
+            Contents of the original raw file. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ACTIVEAREA">
+            <summary>
+            Active (non-masked) pixels of the sensor. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.MASKEDAREAS">
+            <summary>
+            List of coordinates of fully masked pixels. Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ASSHOTICCPROFILE">
+            <summary>
+            Used to map cameras's color space into ICC profile space.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ASSHOTPREPROFILEMATRIX">
+            <summary>
+            Used to map cameras's color space into ICC profile space.
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CURRENTICCPROFILE">
+            <summary>
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.CURRENTPREPROFILEMATRIX">
+            <summary>
+            Introduced by Adobe DNG specification.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSHUESHIFTVALUES">
+            <summary>
+            Undefined tag used by Eastman Kodak, hue shift correction data.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FAXMODE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Group 3/4 format control.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.FaxMode" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGQUALITY">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Compression quality level. Quality level is on the IJG 0-100 scale. Default value is 75.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGCOLORMODE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Auto RGB&lt;=&gt;YCbCr convert.
+            For the list of possible values, see <see cref="T:LibTiff.Classic.JpegColorMode" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.JPEGTABLESMODE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            For the list of possible values, see <see cref="T:LibTiff.Classic.JpegTablesMode" />.
+            Default is <see cref="F:LibTiff.Classic.JpegTablesMode.QUANT" /> | <see cref="F:LibTiff.Classic.JpegTablesMode.HUFF" />.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.FAXFILLFUNC">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            G3/G4 fill function.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXARLOGDATAFMT">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            PixarLogCodec I/O data sz.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSIMAGERTYPE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Imager mode &amp; filter.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>).
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSINTERPMODE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Interpolation mode.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>).
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSBALANCEARRAY">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Color balance values.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>). 
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSCORRECTMATRIX">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Color correction values.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>). 
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSGAMMA">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Gamma value.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>). 
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSTOESHOULDERPTS">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Toe &amp; shoulder points.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>). 
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSCALIBRATIONFD">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Calibration file description.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.ZIPQUALITY">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Compression quality level.
+            Quality level is on the ZLIB 1-9 scale. Default value is -1.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.PIXARLOGQUALITY">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            PixarLog uses same scale.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.DCSCLIPRECTANGLE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            Area of image to acquire.
+            Allocated to Oceana Matrix (<a href="mailto:dev@oceana.com">dev@oceana.com</a>).
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SGILOGDATAFMT">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            SGILog user data format.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.SGILOGENCODE">
+            <summary>
+            [pseudo tag. not written to file]<br />
+            SGILog data encoding control.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_EXPOSURETIME">
+            <summary>
+            Exposure time.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FNUMBER">
+            <summary>
+            F number.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_EXPOSUREPROGRAM">
+            <summary>
+            Exposure program.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SPECTRALSENSITIVITY">
+            <summary>
+            Spectral sensitivity.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_ISOSPEEDRATINGS">
+            <summary>
+            ISO speed rating.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_OECF">
+            <summary>
+            Optoelectric conversion factor.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_EXIFVERSION">
+            <summary>
+            Exif version.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_DATETIMEORIGINAL">
+            <summary>
+            Date and time of original data generation.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_DATETIMEDIGITIZED">
+            <summary>
+            Date and time of digital data generation.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_COMPONENTSCONFIGURATION">
+            <summary>
+            Meaning of each component.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_COMPRESSEDBITSPERPIXEL">
+            <summary>
+            Image compression mode.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SHUTTERSPEEDVALUE">
+            <summary>
+            Shutter speed.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_APERTUREVALUE">
+            <summary>
+            Aperture.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_BRIGHTNESSVALUE">
+            <summary>
+            Brightness.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_EXPOSUREBIASVALUE">
+            <summary>
+            Exposure bias.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_MAXAPERTUREVALUE">
+            <summary>
+            Maximum lens aperture.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBJECTDISTANCE">
+            <summary>
+            Subject distance.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_METERINGMODE">
+            <summary>
+            Metering mode.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_LIGHTSOURCE">
+            <summary>
+            Light source.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FLASH">
+            <summary>
+            Flash.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FOCALLENGTH">
+            <summary>
+            Lens focal length.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBJECTAREA">
+            <summary>
+            Subject area.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_MAKERNOTE">
+            <summary>
+            Manufacturer notes.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_USERCOMMENT">
+            <summary>
+            User comments.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBSECTIME">
+            <summary>
+            DateTime subseconds.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBSECTIMEORIGINAL">
+            <summary>
+            DateTimeOriginal subseconds.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBSECTIMEDIGITIZED">
+            <summary>
+            DateTimeDigitized subseconds.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FLASHPIXVERSION">
+            <summary>
+            Supported Flashpix version.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_COLORSPACE">
+            <summary>
+            Color space information.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_PIXELXDIMENSION">
+            <summary>
+            Valid image width.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_PIXELYDIMENSION">
+            <summary>
+            Valid image height.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_RELATEDSOUNDFILE">
+            <summary>
+            Related audio file.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FLASHENERGY">
+            <summary>
+            Flash energy.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SPATIALFREQUENCYRESPONSE">
+            <summary>
+            Spatial frequency response.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FOCALPLANEXRESOLUTION">
+            <summary>
+            Focal plane X resolution.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FOCALPLANEYRESOLUTION">
+            <summary>
+            Focal plane Y resolution.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FOCALPLANERESOLUTIONUNIT">
+            <summary>
+            Focal plane resolution unit.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBJECTLOCATION">
+            <summary>
+            Subject location.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_EXPOSUREINDEX">
+            <summary>
+            Exposure index.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SENSINGMETHOD">
+            <summary>
+            Sensing method.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FILESOURCE">
+            <summary>
+            File source.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SCENETYPE">
+            <summary>
+            Scene type.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_CFAPATTERN">
+            <summary>
+            CFA pattern.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_CUSTOMRENDERED">
+            <summary>
+            Custom image processing.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_EXPOSUREMODE">
+            <summary>
+            Exposure mode.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_WHITEBALANCE">
+            <summary>
+            White balance.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_DIGITALZOOMRATIO">
+            <summary>
+            Digital zoom ratio.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_FOCALLENGTHIN35MMFILM">
+            <summary>
+            Focal length in 35 mm film.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SCENECAPTURETYPE">
+            <summary>
+            Scene capture type.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_GAINCONTROL">
+            <summary>
+            Gain control.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_CONTRAST">
+            <summary>
+            Contrast.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SATURATION">
+            <summary>
+            Saturation.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SHARPNESS">
+            <summary>
+            Sharpness.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_DEVICESETTINGDESCRIPTION">
+            <summary>
+            Device settings description.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_SUBJECTDISTANCERANGE">
+            <summary>
+            Subject distance range.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.EXIF_IMAGEUNIQUEID">
+            <summary>
+            Unique image ID.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GEOTIFF_MODELPIXELSCALETAG">
+            <summary>
+            This tag is defining exact affine transformations between raster and model space. Used in interchangeable GeoTIFF files.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GEOTIFF_MODELTIEPOINTTAG">
+            <summary>
+            This tag stores raster-&gt;model tiepoint pairs. Used in interchangeable GeoTIFF files.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffTag.GEOTIFF_MODELTRANSFORMATIONTAG">
+            <summary>
+            This tag is optionally provided for defining exact affine transformations between raster and model space. Used in interchangeable GeoTIFF files.
+            </summary>
+        </member>
+        <member name="T:LibTiff.Classic.TiffType">
+            <summary>
+            Tag data type.
+            </summary>
+            <remarks>Note: RATIONALs are the ratio of two 32-bit integer values.</remarks>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.NOTYPE">
+            <summary>
+            Placeholder.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.ANY">
+            <summary>
+            For field descriptor searching.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.BYTE">
+            <summary>
+            8-bit unsigned integer.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.ASCII">
+            <summary>
+            8-bit bytes with last byte <c>null</c>.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.SHORT">
+            <summary>
+            16-bit unsigned integer.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.LONG">
+            <summary>
+            32-bit unsigned integer.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.RATIONAL">
+            <summary>
+            64-bit unsigned fraction.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.SBYTE">
+            <summary>
+            8-bit signed integer.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.UNDEFINED">
+            <summary>
+            8-bit untyped data.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.SSHORT">
+            <summary>
+            16-bit signed integer.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.SLONG">
+            <summary>
+            32-bit signed integer.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.SRATIONAL">
+            <summary>
+            64-bit signed fraction.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.FLOAT">
+            <summary>
+            32-bit IEEE floating point.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.DOUBLE">
+            <summary>
+            64-bit IEEE floating point.
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.IFD">
+            <summary>
+            32-bit unsigned integer (offset)
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.LONG8">
+            <summary>
+            BigTIFF 64-bit unsigned long
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.SLONG8">
+            <summary>
+            BigTIFF 64-bit signed long
+            </summary>
+        </member>
+        <member name="F:LibTiff.Classic.TiffType.IFD8">
+            <summary>
+            BigTIFF 64-bit unsigned integer/long (offset)
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:PDFCore.Utils.PDFUtils.ConvertLiteralColorspaceStringToHex(System.String)" -->
+        <member name="T:Bytescout.PDFRenderer.PDFContentType">
+            <summary>
+            Defines PDF content types.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.PDFContentType.Document">
+            <summary>
+            (0) Normal document.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.PDFContentType.Portfolio">
+            <summary>
+            (1) Portfolio. 
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.PDFContentType.XFAForm">
+            <summary>
+            (2) XFA Form.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.GraphicsTransformationQuality">
+            <summary>
+            Defines smoothing quality for text and vector graphics; interpolation quality for raster images.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.GraphicsTransformationQuality.HighSpeed">
+            <summary>
+            High speed.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.GraphicsTransformationQuality.HighQuality">
+            <summary>
+            Hight quality.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.BaseRenderer">
+            <summary>
+             Defines a base class for PDF renderers.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.IBaseRenderer">
+            <summary>
+             Defines a base interface for PDF renderers.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.Reset">
+            <summary>
+             Resets the instance and disposes internal resources.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.LoadDocumentFromFile(System.String)">
+            <summary>
+             Loads PDF document from specified file.
+            </summary>
+            <param name="fileName">File name.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.LoadDocumentFromStream(System.IO.Stream)">
+            <summary>
+             Loads PDF document from provided stream.
+            </summary>
+            <param name="documentFileStream">Input stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.GetPageCount">
+            <summary>
+             Returns document page count.
+            </summary>
+            <returns>Page count.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.GetPageRect_Left(System.Int32)">
+            <summary>
+            Gets the specified page left coordinate.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Left coordinate in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.GetPageRect_Top(System.Int32)">
+            <summary>
+            Gets the specified page top coordinate.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Top coordinate in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.GetPageRect_Width(System.Int32)">
+            <summary>
+            Gets the specified page width.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Page width in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.GetPageRect_Height(System.Int32)">
+            <summary>
+            Gets the specified page height.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Page height in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.SetExtractionArea(System.Drawing.RectangleF)">
+            <summary>
+             Sets the extraction area by rectangle.
+            </summary>
+            <param name="rectangle"></param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.SetExtractionArea(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+             Sets the extraction area by coordinates and dimensions.
+            </summary>
+            <param name="left"></param>
+            <param name="top"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IBaseRenderer.ResetExtractionArea">
+            <summary>
+             Resets the extraction area to full page.
+            </summary>
+        </member>
+        <member name="E:Bytescout.PDFRenderer.IBaseRenderer.PasswordRequired">
+            <summary>
+             Occurs when the password required to decrypt the document.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.RegistrationName">
+            <summary>
+             Registration name.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.RegistrationKey">
+            <summary>
+             Registration key.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.Password">
+            <summary>
+             PDF document owner password.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.Version">
+            <summary>
+             Gets the component version number.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.TextSmoothingMode">
+            <summary>
+            Gets or sets the text smoothing mode.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.VectorSmoothingMode">
+            <summary>
+            Gets or sets the vector smoothing mode.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.ImageInterpolationMode">
+            <summary>
+            Gets or sets the image interpolation mode.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.ContentType">
+            <summary>
+            Returns content type of PDF document: normal document, portfolio or XFA form.
+            To extract files from PDF portfolio you can use AttachmentExtractor class from PDF Extractor SDK.
+            To extract XFA form content you can use XFAFormExtractor class from PDF Extractor SDK.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.EmbeddedFileCount">
+            <summary>
+            Returns number of embedded files (or attachments if any)
+            Files can be attached as "attachments" or embedded into PDf if the PDF is a "portfolio" file
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IBaseRenderer.PrintingAllowed">
+            <summary>
+            Is printing allowed by permissions
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.#ctor">
+            <summary>
+             Protected constructor.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.#ctor(System.String,System.String)">
+            <summary>
+             Initializes a new instance of the extractor class.
+            </summary>
+            <param name="registrationName">Registration name.</param>
+            <param name="registrationKey">Registration key.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.Dispose">
+            <summary>
+            Releases the unmanaged resources used by the instance and optionally releases the managed resources.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.Reset">
+            <summary>
+             Resets the instance, disposes internal resources and releases the file.
+             Use this method before loading another PDF file.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.LoadDocumentFromFile(System.String)">
+            <summary>
+             Loads PDF document from specified file. 
+            </summary>
+            <param name="fileName">File name.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.LoadDocumentFromStream(System.IO.Stream)">
+            <summary>
+             Loads PDF document from provided stream.
+            </summary>
+            <param name="documentFileStream">Input stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.GetPageCount">
+            <summary>
+             Returns document page count.
+            </summary>
+            <returns>Page count.</returns>
+            <exception cref="T:Bytescout.PDFRenderer.PDFRendererException"></exception>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.GetPageRectangle(System.Int32)">
+            <summary>
+            Gets the page rectangle.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns></returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.GetPageRect_Left(System.Int32)">
+            <summary>
+            Gets the specified page left coordinate.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Left coordinate in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.GetPageRect_Top(System.Int32)">
+            <summary>
+            Gets the specified page top coordinate.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Top coordinate in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.GetPageRect_Width(System.Int32)">
+            <summary>
+            Gets the specified page width.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Page width in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.GetPageRect_Height(System.Int32)">
+            <summary>
+            Gets the specified page height.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Page height in points.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.SetExtractionArea(System.Drawing.RectangleF)">
+            <summary>
+             Sets the extraction area by rectangle.
+            </summary>
+            <param name="rectangle"></param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.SetExtractionArea(System.Single,System.Single,System.Single,System.Single)">
+            <summary>
+             Sets the extraction area by coordinates and dimensions.
+            </summary>
+            <param name="left"></param>
+            <param name="top"></param>
+            <param name="width"></param>
+            <param name="height"></param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.BaseRenderer.ResetExtractionArea">
+            <summary>
+             Resets the extraction area to full page.
+            </summary>
+        </member>
+        <member name="E:Bytescout.PDFRenderer.BaseRenderer.PasswordRequired">
+            <summary>
+             Occurs when the password required to decrypt the document.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.RegistrationName">
+            <summary>
+             Registration name.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.RegistrationKey">
+            <summary>
+             Registration key.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.Password">
+            <summary>
+             PDF document owner password.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.Version">
+            <summary>
+             Gets the component version number.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.TextSmoothingMode">
+            <summary>
+            Gets or sets the text smoothing mode.
+            </summary>
+            <value>
+            The text smoothing mode.
+            </value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.VectorSmoothingMode">
+            <summary>
+            Gets or sets the vector smoothing mode.
+            </summary>
+            <value>
+            The vector smoothing mode.
+            </value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.ImageInterpolationMode">
+            <summary>
+            Gets or sets the image interpolation mode.
+            </summary>
+            <value>
+            The image interpolation mode.
+            </value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.ContentType">
+            <summary>
+            Returns content type of PDF document: normal document, portfolio or XFA form.
+            To extract files from PDF portfolio you can use AttachmentExtractor class from PDF Extractor SDK.
+            To extract XFA form content you can use XFAFormExtractor class from PDF Extractor SDK.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.EmbeddedFileCount">
+            <summary>
+            Returns number of embedded files (or attachments if any)
+            Files can be attached as "attachments" or embedded into PDf if the PDF is a "portfolio" file
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.BaseRenderer.PrintingAllowed">
+            <summary>
+            Indicates if Printing is allowed.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.RotateFlipType">
+            <summary> 
+            Specifies the direction of an image's rotation and the axis used to flip the image.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate180FlipXY">
+            <summary>
+            Specifies a 180-degree rotation followed by a horizontal and vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.RotateNoneFlipNone">
+            <summary>
+            Specifies no rotation and no flipping.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate270FlipXY">
+            <summary>
+            Specifies a 270-degree rotation followed by a horizontal and vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate90FlipNone">
+            <summary>
+            Specifies a 90-degree rotation without flipping.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate180FlipNone">
+            <summary>
+            Specifies a 180-degree rotation without flipping.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.RotateNoneFlipXY">
+            <summary>
+            Specifies no rotation followed by a horizontal and vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate270FlipNone">
+            <summary>
+            Specifies a 270-degree rotation without flipping.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate90FlipXY">
+            <summary>
+            Specifies a 90-degree rotation followed by a horizontal and vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate180FlipY">
+            <summary>
+            Specifies a 180-degree rotation followed by a vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.RotateNoneFlipX">
+            <summary>
+            Specifies no rotation followed by a horizontal flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate90FlipX">
+            <summary>
+            Specifies a 90-degree rotation followed by a horizontal flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate270FlipY">
+            <summary>
+            Specifies a 270-degree rotation followed by a vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.RotateNoneFlipY">
+            <summary>
+            Specifies no rotation followed by a vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate180FlipX">
+            <summary>
+            Specifies a 180-degree rotation followed by a horizontal flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate90FlipY">
+            <summary>
+            Specifies a 90-degree rotation followed by a vertical flip.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RotateFlipType.Rotate270FlipX">
+            <summary>
+            Specifies a 270-degree rotation followed by a horizontal flip.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.DocumentPrinter">
+            <summary>
+             DocumentPrinter class helps to send PDF document to a printer in silent mode.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.DocumentPrinter" /> class.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.#ctor(System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.DocumentPrinter" /> class.
+             </summary>
+            <param name="registrationName">Registration name.</param>
+            <param name="registrationKey">Registration key.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.Dispose">
+            <summary>
+            Releases the unmanaged resources used by the instance and optionally releases the managed resources.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.LoadDocumentFromFile(System.String)">
+            <summary>
+             Loads PDF document from specified file. 
+            </summary>
+            <param name="fileName">File name.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.LoadDocumentFromStream(System.IO.Stream)">
+            <summary>
+             Loads PDF document from provided stream.
+            </summary>
+            <param name="documentFileStream">Input stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.PrintDocument(System.String)">
+            <summary>
+            Prints all document pages to specified printer.
+            </summary>
+            <param name="printerName">Printer name.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.PrintDocument(System.String,System.String)">
+            <summary>
+            Prints selected pages to specified printer.
+            </summary>
+            <param name="printerName">Printer name.</param>
+            <param name="pages">Comma-separated list of page numbers in form "1-4,5,7,8-15,16-". Page numbers are 1-based. Ending "-" means "to the last page".</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.PrintDocument(System.String,System.Int32,System.Int32)">
+            <summary>
+            Prints selected pages to specified printer.
+            </summary>
+            <param name="printerName">Printer name.</param>
+            <param name="startPage">0-based index of the start page.</param>
+            <param name="endPage">0-based index of the end page.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.PrintDocument(System.String,System.Int32[])">
+            <summary>
+            Prints selected pages to specified printer.
+            </summary>
+            <param name="printerName">Printer name.</param>
+            <param name="pages">Array of 0-based page indexes.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.DocumentPrinter.SetMargins(System.Int32,System.Int32,System.Int32,System.Int32)">
+            <summary>
+            Sets the margins for printed page in hundredths of an inch. 
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Password">
+            <summary>
+             Password for protected PDF documents.
+            </summary>
+        </member>
+        <member name="E:Bytescout.PDFRenderer.DocumentPrinter.PasswordRequired">
+            <summary>
+             Occurs when the password required to decrypt PDF document.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.RegistrationName">
+            <summary>
+             Registration name.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.RegistrationKey">
+            <summary>
+             Registration key.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Margins">
+            <summary>
+            Gets or sets the margins for printed page. 
+            </summary>
+            <value>
+            A <see cref="T:System.Drawing.Printing.Margins" /> that represents the margins, in hundredths of an inch, for the page. 
+            The default is no margins on all sides because PDF documents usually contains margins already.
+            </value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Landscape">
+            <summary>
+            Gets or sets a value indicating whether the page is printed in landscape or portrait orientation.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Copies">
+            <summary>
+            Gets or sets the number of copies of the document to print.
+            </summary>
+            <remarks>Note: Not all printers support printing multiple copes.</remarks>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Collate">
+            <summary>
+            Gets or sets a value indicating whether the printed document is collated.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Duplex">
+            <summary>
+            Gets or sets the printer setting for double-sided printing.
+            </summary>
+            <remarks>Note: Not all printers support the duplex printing.</remarks>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.Color">
+            <summary>
+            Gets or sets a value indicating whether the page should be printed in color.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.PaperSize">
+            <summary>
+            Gets or sets the paper size for the page.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.PaperSource">
+            <summary>
+            Gets or sets the page's paper source; for example, the printer's upper tray.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.DocumentPrinter.PrinterResolution">
+            <summary>
+            Gets or sets the printer resolution for the page.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.IVectorRenderer">
+            <summary>
+             Defines the PDF to Vector image rendering interface.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IVectorRenderer.RenderPageToMetafile(System.Int32)">
+            <summary>
+            Renders document page to metafile.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Metafile object.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IVectorRenderer.RenderPageToFile(System.Int32,Bytescout.PDFRenderer.VectorOutputFormat,System.String)">
+            <summary>
+            Renders document page to file.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output vector format.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IVectorRenderer.RenderPageToStream(System.Int32,Bytescout.PDFRenderer.VectorOutputFormat,System.IO.Stream)">
+            <summary>
+            Renders document page to stream.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output vector format.</param>
+            <param name="stream">The stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IVectorRenderer.RenderDocumentToFolder(Bytescout.PDFRenderer.VectorOutputFormat,System.String)">
+            <summary>
+            Renders whole document to folder.
+            </summary>
+            <param name="outputFormat">The output vector format.</param>
+            <param name="outputFolder">The output folder.</param>
+            <returns>List of file paths.</returns>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IVectorRenderer.Resolution">
+            <summary>
+             Gets or sets the output image resolution.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IVectorRenderer.UseEmbeddedFonts">
+            <summary>
+            Gets or sets a value indicating whether to use fonts that embedded in PDF document.
+            Otherwise, only system fonts will be used and text that uses non-system fonts will be rasterized.
+            </summary>
+            <value>
+                <c>true</c> if use embedded fonts; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IVectorRenderer.SupportJBIGDecoding">
+            <summary>
+             Decoding of JBIG images contained in PDF documents requires J# runtime libraries to be installed. 
+             If you cannot provide the J# runtime in your target environment, set this property to <c>false</c>.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.IRasterRenderer">
+            <summary>
+             Defines PDF to Raster image renderer interface.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageToImage(System.Int32)">
+            <summary>
+            Renders document page to Image object.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Image object.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageToImage(System.Int32,Bytescout.PDFRenderer.RotateFlipType)">
+            <summary>
+            Renders document page to Image object, rotated and flipped as specified.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="rotateFlipType">Rotation and flip type.</param>
+            <returns>Image object.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageToFile(System.Int32,Bytescout.PDFRenderer.RasterOutputFormat,System.String)">
+            <summary>
+            Renders document page to file.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageToFile(System.Int32,Bytescout.PDFRenderer.RotateFlipType,Bytescout.PDFRenderer.RasterOutputFormat,System.String)">
+            <summary>
+            Renders document page to file, rotated and flipped as specified.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="rotateFlipType">Rotation and flip type.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageToStream(System.Int32,Bytescout.PDFRenderer.RasterOutputFormat,System.IO.Stream)">
+            <summary>
+            Renders document page to stream.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="stream">The output stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageToStream(System.Int32,Bytescout.PDFRenderer.RotateFlipType,Bytescout.PDFRenderer.RasterOutputFormat,System.IO.Stream)">
+            <summary>
+            Renders document page to stream, rotated and flipped as specified.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="rotateFlipType">Rotation and flip type.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="stream">The output stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderDocumentToFolder(Bytescout.PDFRenderer.RasterOutputFormat,System.String)">
+            <summary>
+            Renders whole document to folder.
+            </summary>
+            <param name="outputFormat">The output image format.</param>
+            <param name="outputFolder">The output folder.</param>
+            <returns>List of file paths.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageRangeToMultipageTIFFFile(System.Int32,System.Int32,Bytescout.PDFRenderer.TIFFCompression,System.String)">
+            <summary>
+            Renders specified page range to multipage TIFF image file.
+            </summary>
+            <param name="startPageIndex">Start page index.</param>
+            <param name="endPageIndex">End page index. You can use -1 to specify the last page.</param>
+            <param name="tiffCompression">TIFF compression.</param>
+            <param name="fileName">Output file name.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.IRasterRenderer.RenderPageRangeToMultipageTIFFStream(System.Int32,System.Int32,Bytescout.PDFRenderer.TIFFCompression,System.IO.Stream)">
+            <summary>
+            Renders specified page range to multipage TIFF image file.
+            </summary>
+            <param name="startPageIndex">Start page index.</param>
+            <param name="endPageIndex">End page index. You can use -1 to specify the last page.</param>
+            <param name="tiffCompression">TIFF compression.</param>
+            <param name="stream">Output stream.</param>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.Resolution">
+            <summary>
+             Gets or sets the output image resolution.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.UseEmbeddedFonts">
+            <summary>
+            Gets or sets a value indicating whether to use fonts that embedded in PDF document.
+            Otherwise, only system fonts will be used and text that uses non-system fonts will be rasterized.
+            </summary>
+            <value>
+                <c>true</c> if use embedded fonts; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.TextLayerEnabled">
+            <summary>
+            Enable text layer rendering enabled or not.
+            True by default.
+            </summary>
+            <value>
+                <c>true</c> if render text layer; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.VectorLayerEnabled">
+            <summary>
+            Enable vector layer rendering enabled or not.
+            True by default.
+            </summary>
+            <value>
+                <c>true</c> if render vector layer; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.ImageLayerEnabled">
+            <summary>
+            Enable image layer rendering enabled or not.
+            True by default.
+            </summary>
+            <value>
+                <c>true</c> if render image layer; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.SupportJBIGDecoding">
+            <summary>
+             Decoding of JBIG images contained in PDF documents requires J# runtime libraries to be installed. 
+             If you cannot provide the J# runtime in your target environment, set this property to <c>false</c>.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.IRasterRenderer.JPEGQuality">
+            <summary>
+            Gets or sets the quality for JPEG output format.
+            </summary>
+            <value>The integer that represents the quality of JPEG output images. From 0 (min size) to 100 (max quality). Default is 80.</value>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.PDFRendererException">
+            <summary>
+             Represents errors that occur during PDF extraction process.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.PDFRendererException.#ctor(System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.PDFRendererException" /> class.
+            </summary>
+            <param name="message">The message text.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.PDFRendererException.#ctor(System.String,System.Exception)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.PDFRendererException" /> class.
+            </summary>
+            <param name="message">The message text.</param>
+            <param name="innerException">The inner exception.</param>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.VectorOutputFormat">
+            <summary>
+             Defines vector output formats
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.VectorOutputFormat.EMF">
+            <summary>
+             (0) Extended Meta File (EMF)
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.VectorRenderer">
+            <summary>
+             Represents PDF to Vector image renderer.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.#ctor">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.VectorRenderer" /> class.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.#ctor(System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.VectorRenderer" /> class.
+            </summary>
+            <param name="registrationName">Registration name.</param>
+            <param name="registrationKey">Registration key.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.Reset">
+            <summary>
+             Resets the <see cref="T:Bytescout.PDFRenderer.VectorRenderer" /> instance and disposes internal resources.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.RenderPageToMetafile(System.Int32)">
+            <summary>
+            Renders document page to metafile.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Metafile object.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.RenderPageToFile(System.Int32,Bytescout.PDFRenderer.VectorOutputFormat,System.String)">
+            <summary>
+            Renders document page to file.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output vector format.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.RenderPageToStream(System.Int32,Bytescout.PDFRenderer.VectorOutputFormat,System.IO.Stream)">
+            <summary>
+            Renders document page to stream.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output vector format.</param>
+            <param name="stream">The stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.VectorRenderer.RenderDocumentToFolder(Bytescout.PDFRenderer.VectorOutputFormat,System.String)">
+            <summary>
+            Renders whole document to a folder.
+            </summary>
+            <param name="outputFormat">The output vector format.</param>
+            <param name="outputFolder">The output folder.</param>
+            <returns>List of file paths.</returns>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.VectorRenderer.OutputFotmat">
+            <summary>
+             Output format.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.VectorRenderer.Resolution">
+            <summary>
+             Output image resolution. Default is 300 DPI.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.VectorRenderer.UseEmbeddedFonts">
+            <summary>
+            Gets or sets a value indicating whether to use fonts that embedded in PDF document.
+            Otherwise, only system fonts will be used and text that uses non-system fonts will be rasterized.
+            </summary>
+            <value>
+                <c>true</c> if use embedded fonts; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.VectorRenderer.SupportJBIGDecoding">
+            <summary>
+             Decoding of JBIG images contained in PDF documents requires J# runtime libraries to be installed. 
+             If you cannot provide the J# runtime in your target environment, set this property to <c>false</c>.
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.RasterOutputFormat">
+            <summary>
+             Defines raster image output formats
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RasterOutputFormat.BMP">
+            <summary>
+             (0) Bitmap (BMP)
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RasterOutputFormat.JPEG">
+            <summary>
+             (1) JPEG (JPG)
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RasterOutputFormat.PNG">
+            <summary>
+             (2) Protable Network Graphics (PNG)
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RasterOutputFormat.TIFF">
+            <summary>
+             (3) TIFF (TIF)
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.RasterOutputFormat.GIF">
+            <summary>
+             (4) GIF
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.TIFFCompression">
+            <summary>
+             Defines TIFF image compression.
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.TIFFCompression.None">
+            <summary>
+             (0) Uncompressed TIFF
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.TIFFCompression.LZW">
+            <summary>
+             (1) LZW compression
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.TIFFCompression.CCITT3">
+            <summary>
+             (2) CCITT3 compression
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.TIFFCompression.CCITT4">
+            <summary>
+             (3) CCITT4 compression
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.TIFFCompression.JPEG">
+            <summary>
+             (4) JPEG compression
+            </summary>
+        </member>
+        <member name="F:Bytescout.PDFRenderer.TIFFCompression.RLE">
+            <summary>
+             (5) RLE compression
+            </summary>
+        </member>
+        <member name="T:Bytescout.PDFRenderer.RasterRenderer">
+            <summary>
+             Represents PDF to Raster image renderer.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.#ctor">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.RasterRenderer" /> class.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.#ctor(System.String,System.String)">
+            <summary>
+             Initializes a new instance of the <see cref="T:Bytescout.PDFRenderer.RasterRenderer" /> class.
+            </summary>
+            <param name="registrationName">Registration name.</param>
+            <param name="registrationKey">Registration key.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.Reset">
+            <summary>
+             Resets the <see cref="T:Bytescout.PDFRenderer.RasterRenderer" /> instance and disposes internal resources.
+            </summary>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageToImage(System.Int32,Bytescout.PDFRenderer.RotateFlipType)">
+            <summary>
+            Renders document page to Image object, rotated and flipped as specified.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="rotateFlipType">Rotation and flip type.</param>
+            <returns>Image object.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageToImage(System.Int32)">
+            <summary>
+            Renders document page to Image object.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <returns>Image object.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageToFile(System.Int32,Bytescout.PDFRenderer.RotateFlipType,Bytescout.PDFRenderer.RasterOutputFormat,System.String)">
+            <summary>
+            Renders document page to file, rotated and flipped as specified.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="rotateFlipType">Rotation and flip type.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageToFile(System.Int32,Bytescout.PDFRenderer.RasterOutputFormat,System.String)">
+            <summary>
+            Renders document page to file.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="fileName">Name of the file.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageToStream(System.Int32,Bytescout.PDFRenderer.RotateFlipType,Bytescout.PDFRenderer.RasterOutputFormat,System.IO.Stream)">
+            <summary>
+            Renders document page to stream, rotated and flipped as specified.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="rotateFlipType">Rotation and flip type.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="stream">The output stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageToStream(System.Int32,Bytescout.PDFRenderer.RasterOutputFormat,System.IO.Stream)">
+            <summary>
+            Renders document page to stream.
+            </summary>
+            <param name="pageIndex">Index of the page.</param>
+            <param name="outputFormat">The output image format.</param>
+            <param name="stream">The output stream.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderDocumentToFolder(Bytescout.PDFRenderer.RasterOutputFormat,System.String)">
+            <summary>
+            Renders whole document to folder.
+            </summary>
+            <param name="outputFormat">The output image format.</param>
+            <param name="outputFolder">The output folder.</param>
+            <returns>List of file paths.</returns>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageRangeToMultipageTIFFFile(System.Int32,System.Int32,Bytescout.PDFRenderer.TIFFCompression,System.String)">
+            <summary>
+            Renders specified page range to multipage TIFF image file.
+            </summary>
+            <param name="startPageIndex">Start page index.</param>
+            <param name="endPageIndex">End page index. You can use -1 to specify the last page.</param>
+            <param name="tiffCompression">TIFF compression.</param>
+            <param name="fileName">Output file name.</param>
+        </member>
+        <member name="M:Bytescout.PDFRenderer.RasterRenderer.RenderPageRangeToMultipageTIFFStream(System.Int32,System.Int32,Bytescout.PDFRenderer.TIFFCompression,System.IO.Stream)">
+            <summary>
+            Renders specified page range to multipage TIFF image file.
+            </summary>
+            <param name="startPageIndex">Start page index.</param>
+            <param name="endPageIndex">End page index. You can use -1 to specify the last page.</param>
+            <param name="tiffCompression">TIFF compression.</param>
+            <param name="stream">Output stream.</param>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.Resolution">
+            <summary>
+             Output image resolution. Default is 300 DPI.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.UseEmbeddedFonts">
+            <summary>
+            Gets or sets a value indicating whether to use fonts that embedded in PDF document.
+            Otherwise, only system fonts will be used and text that uses non-system fonts will be rasterized.
+            </summary>
+            <value>
+                <c>true</c> if use embedded fonts; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.TextLayerEnabled">
+            <summary>
+            Gets or sets a value indicating whether to to render text layer or not.
+            True by default. False means to not to render text objects.
+            </summary>
+            <value>
+                <c>true</c> if render text objects; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.VectorLayerEnabled">
+            <summary>
+            Gets or sets a value indicating whether to to render vector layer or not.
+            True by default. False means to not to render vector objects.
+            </summary>
+            <value>
+                <c>true</c> if render vector objects; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.ImageLayerEnabled">
+            <summary>
+            Gets or sets a value indicating whether to to render image layer or not.
+            True by default. False means to not to render image objects.
+            </summary>
+            <value>
+                <c>true</c> if render image objects; otherwise, <c>false</c>.</value>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.SupportJBIGDecoding">
+            <summary>
+             Decoding of JBIG images contained in PDF documents requires J# runtime libraries to be installed. 
+             If you cannot provide the J# runtime in your target environment, set this property to <c>false</c>.
+            </summary>
+        </member>
+        <member name="P:Bytescout.PDFRenderer.RasterRenderer.JPEGQuality">
+            <summary>
+            Gets or sets the quality for JPEG output format.
+            </summary>
+            <value>The integer that represents the quality of JPEG output images. From 0 (min size) to 100 (max quality). Default is 80.</value>
+        </member>
+    </members>
+</doc>
