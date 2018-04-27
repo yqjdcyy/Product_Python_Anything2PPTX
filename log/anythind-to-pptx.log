@@ -1,0 +1,194 @@
+2018-04-26 18:59:48,712       INFO PDF2PPTX
+2018-04-26 19:00:00,292       INFO IMAGES2PPTX
+2018-04-26 19:00:04,827       INFO PDF2IMAGES
+2018-04-26 19:11:43,025       INFO PDF2IMAGES
+2018-04-26 19:11:51,640       INFO PDF2IMAGES
+2018-04-26 19:12:03,763       INFO PDF2IMAGES
+2018-04-26 19:12:09,847       INFO PDF2IMAGES
+2018-04-26 19:19:41,335       INFO PDF2IMAGES
+2018-04-26 19:20:04,571       INFO PDF2IMAGES
+2018-04-26 19:20:15,079       INFO PDF2IMAGES
+2018-04-26 19:21:30,303       INFO PDF2IMAGES
+2018-04-26 19:23:13,987       INFO PDF2IMAGES
+2018-04-26 19:25:20,250       INFO PDF2IMAGES
+2018-04-26 19:25:24,426       INFO None
+2018-04-26 19:33:02,361       INFO PDF2IMAGES
+2018-04-26 19:33:14,302       INFO PDF2IMAGES
+2018-04-26 19:33:18,927       INFO None
+2018-04-26 19:33:28,834       INFO PDF2IMAGES
+2018-04-26 19:33:34,975       INFO None
+2018-04-26 19:45:49,598       INFO PDF2IMAGES
+2018-04-26 19:47:31,258       INFO IMAGES2PPTX
+2018-04-26 19:48:08,665       INFO IMAGES2PPTX
+2018-04-27 10:17:01,586       INFO IMAGES2PPTX
+2018-04-27 10:17:27,485       INFO IMAGES2PPTX
+2018-04-27 10:18:52,090       INFO IMAGES2PPTX
+2018-04-27 10:23:44,745       INFO IMAGES2PPTX
+2018-04-27 10:23:44,941       INFO None
+2018-04-27 10:32:54,391       INFO IMAGES2PPTX
+2018-04-27 10:32:54,567       INFO None
+2018-04-27 10:35:18,346       INFO IMAGES2PPTX
+2018-04-27 10:35:18,346      DEBUG D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:35:18,455       INFO None
+2018-04-27 10:35:52,829       INFO IMAGES2PPTX
+2018-04-27 10:35:52,829       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:35:52,936       INFO None
+2018-04-27 10:39:47,836       INFO IMAGES2PPTX
+2018-04-27 10:39:47,836       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:40:08,020       INFO IMAGES2PPTX
+2018-04-27 10:40:08,020       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:41:37,307       INFO IMAGES2PPTX
+2018-04-27 10:41:37,308       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:41:37,409       INFO None
+2018-04-27 10:45:54,960       INFO IMAGES2PPTX
+2018-04-27 10:45:54,961       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:45:55,180       INFO None
+2018-04-27 10:47:55,619       INFO IMAGES2PPTX
+2018-04-27 10:47:55,619       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:48:19,014       INFO IMAGES2PPTX
+2018-04-27 10:48:19,014       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:48:19,206       INFO None
+2018-04-27 10:49:44,201       INFO IMAGES2PPTX
+2018-04-27 10:49:44,201       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:50:13,564       INFO IMAGES2PPTX
+2018-04-27 10:50:13,564       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:50:33,591       INFO IMAGES2PPTX
+2018-04-27 10:50:33,591       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:55:27,376       INFO IMAGES2PPTX
+2018-04-27 10:55:27,376       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 10:55:27,485       INFO STDOUT: b'Arguments=\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\nConvert fail:    \xd4\xda AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)\r\n   \xd4\xda AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)\r\n   \xd4\xda AnythingToPPTX.Program.Main(String[] args)\r\n'
+2018-04-27 10:55:27,485      ERROR STDERR: b'Arguments=\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\nConvert fail:    \xd4\xda AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)\r\n   \xd4\xda AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)\r\n   \xd4\xda AnythingToPPTX.Program.Main(String[] args)\r\n'
+2018-04-27 11:01:23,057       INFO IMAGES2PPTX
+2018-04-27 11:01:23,057       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:01:23,169       INFO STDOUT: b'Arguments=\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\nConvert fail:    \xd4\xda AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)\r\n   \xd4\xda AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)\r\n   \xd4\xda AnythingToPPTX.Program.Main(String[] args)\r\n'
+2018-04-27 11:01:23,169      ERROR STDERR: b''
+2018-04-27 11:02:17,497       INFO PDF2IMAGES
+2018-04-27 11:02:21,821       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-27 11:02:21,822      ERROR STDERR: b''
+2018-04-27 11:03:05,160       INFO PDF2IMAGES
+2018-04-27 11:03:09,547       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-27 11:03:09,547      ERROR STDERR: b''
+2018-04-27 11:03:32,415       INFO PDF2IMAGES
+2018-04-27 11:03:37,026       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-27 11:03:37,027      ERROR STDERR: b''
+2018-04-27 11:03:37,028       INFO D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:04:05,449       INFO PDF2IMAGES
+2018-04-27 11:04:09,846       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-27 11:05:02,355       INFO IMAGES2PPTX
+2018-04-27 11:05:02,356       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:05:02,468       INFO STDOUT: b'Arguments=\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\nConvert fail:    \xd4\xda AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)\r\n   \xd4\xda AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)\r\n   \xd4\xda AnythingToPPTX.Program.Main(String[] args)\r\n'
+2018-04-27 11:05:02,468      ERROR STDERR: b''
+2018-04-27 11:05:39,485       INFO IMAGES2PPTX
+2018-04-27 11:05:39,486       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:05:39,599       INFO STDOUT: b'Arguments=\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\nConvert fail:    \xd4\xda AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)\r\n   \xd4\xda AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)\r\n   \xd4\xda AnythingToPPTX.Program.Main(String[] args)\r\n'
+2018-04-27 11:06:34,405       INFO IMAGES2PPTX
+2018-04-27 11:06:34,405       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:06:34,503       INFO STDOUT: b'Arguments=\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\n\tD:\\work\\git\\yao\\python\\Utils_Python_Anything2PPTX\\resource\r\nConvert fail:    \xd4\xda AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)\r\n   \xd4\xda AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)\r\n   \xd4\xda AnythingToPPTX.Program.Main(String[] args)\r\n'
+2018-04-27 11:12:16,254       INFO IMAGES2PPTX
+2018-04-27 11:12:16,255       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:12:45,461       INFO IMAGES2PPTX
+2018-04-27 11:12:45,461       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:13:14,410       INFO IMAGES2PPTX
+2018-04-27 11:13:14,410       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:13:36,372       INFO IMAGES2PPTX
+2018-04-27 11:13:36,372       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:13:36,501       INFO STDOUT:
+2018-04-27 11:13:36,501       INFO 0
+2018-04-27 11:13:36,502       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+Convert fail:    在 AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)
+   在 AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)
+   在 AnythingToPPTX.Program.Main(String[] args)
+2018-04-27 11:14:18,994       INFO IMAGES2PPTX
+2018-04-27 11:14:18,994       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 11:14:19,168       INFO STDOUT:
+2018-04-27 11:14:19,168       INFO 0
+2018-04-27 11:14:19,169       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+Convert fail:    在 AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)
+   在 AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)
+   在 AnythingToPPTX.Program.Main(String[] args)
+2018-04-27 12:01:07,629       INFO IMAGES2PPTX
+2018-04-27 12:01:07,630       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 12:01:07,754       INFO STDOUT:
+2018-04-27 12:01:07,754       INFO 0
+2018-04-27 12:01:07,754       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+Convert fail:    在 AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)
+   在 AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)
+   在 AnythingToPPTX.Program.Main(String[] args)
+2018-04-27 12:03:41,047       INFO IMAGES2PPTX
+2018-04-27 12:03:41,047       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 12:03:41,170       INFO STDOUT:
+2018-04-27 12:03:41,171       INFO 0
+2018-04-27 12:03:41,171       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+Convert fail: System.Exception: The pointed PPTX template is not exists
+   在 AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)
+   在 AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)
+   在 AnythingToPPTX.Program.Main(String[] args)
+2018-04-27 12:04:49,737       INFO IMAGES2PPTX
+2018-04-27 12:04:49,738       INFO IMAGES2PPTX: D:\work\git\yao\python\Utils_Python_Anything2PPTX\code/../bin/csharp/AnythingToPPTX.exe D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-27 12:04:49,861       INFO STDOUT:
+2018-04-27 12:04:49,862       INFO 0
+2018-04-27 12:04:49,862       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+Convert fail: System.Exception: The pointed PPTX template[D:\work\git\yao\python\Utils_Python_Anything2PPTX\code\Template\template.pptx] is not exists
+   在 AnythingToPPTX.Utils.ImageToPPTXTemplateUtils.convert(String path, List`1 imgList, String tempPath)
+   在 AnythingToPPTX.Program.ImageToPPTX(String path, String dest, String temp, Boolean bOpen)
+   在 AnythingToPPTX.Program.Main(String[] args)
+2018-04-27 12:07:09,507       INFO IMAGES2PPTX
+2018-04-27 12:07:29,986       INFO IMAGES2PPTX
+2018-04-27 12:10:05,957       INFO IMAGES2PPTX
+2018-04-27 12:10:06,396       INFO STDOUT:
+2018-04-27 12:10:06,396       INFO 0
+2018-04-27 12:10:06,397       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	../bin/csharp/Template/template.pptx
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\79a73d14-9c2c-49e3-aaa2-273655b9843f.pptx]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0001.jpeg] to slide[916]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0002.jpeg] to slide[917]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0003.jpeg] to slide[918]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0004.jpeg] to slide[919]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0005.jpeg] to slide[920]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0006.jpeg] to slide[921]
+Save PPTX
+2018-04-27 12:10:36,197       INFO IMAGES2PPTX
+2018-04-27 12:10:36,632       INFO STDOUT:
+2018-04-27 12:10:36,632       INFO 0
+2018-04-27 12:10:36,633       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	../bin/csharp/Template/template.pptx
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\32803157-78e5-4e6d-90b3-45e034ecc35f.pptx]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0001.jpeg] to slide[916]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0002.jpeg] to slide[917]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0003.jpeg] to slide[918]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0004.jpeg] to slide[919]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0005.jpeg] to slide[920]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0006.jpeg] to slide[921]
+Save PPTX
+2018-04-27 12:16:52,527       INFO PDF2PPTX
+2018-04-27 12:16:52,527       INFO PDF2IMAGES
+2018-04-27 12:16:56,943       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-27 12:16:56,943       INFO IMAGES2PPTX
+2018-04-27 12:16:57,395       INFO STDOUT:
+2018-04-27 12:16:57,395       INFO 0
+2018-04-27 12:16:57,396       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	../bin/csharp/Template/template.pptx
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\627bebe3-58d1-4ce0-b4b3-10d379c4a889.pptx]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0001.jpeg] to slide[916]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0002.jpeg] to slide[917]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0003.jpeg] to slide[918]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0004.jpeg] to slide[919]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0005.jpeg] to slide[920]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0006.jpeg] to slide[921]
+Save PPTX

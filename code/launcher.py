@@ -3,6 +3,7 @@ import sys
 
 from config import config as conf
 from config import ReqType
+import shell
 
 
 def main():
@@ -40,11 +41,11 @@ def main():
 
     # switch
     if conf.type is ReqType.PDF2PPTX:
-        print("PDF2PPTX")
+        shell.PDF2PPTX()
     elif conf.type is ReqType.PDF2IMAGES:
-        print("PDF2IMAGES")
+        shell.PDF2IMAGES()
     elif conf.type is ReqType.IMAGES2PPTX:
-        print("IMAGES2PPTX")
+        shell.IMAGES2PPTX()
     elif conf.type is ReqType.CONFIG:
         print(conf)
 
