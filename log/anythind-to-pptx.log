@@ -192,3 +192,21 @@ Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0004.jpe
 Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0005.jpeg] to slide[920]
 Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0006.jpeg] to slide[921]
 Save PPTX
+2018-04-27 12:21:45,463       INFO PDF2PPTX
+2018-04-27 12:21:45,463       INFO PDF2IMAGES
+2018-04-27 12:21:49,328       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-27 12:21:49,329       INFO IMAGES2PPTX
+2018-04-27 12:21:49,795       INFO STDOUT:
+2018-04-27 12:21:49,796       INFO 0
+2018-04-27 12:21:49,798       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	../bin/csharp/Template/template.pptx
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\e52330bb-667a-44e8-ad03-fb7365a612f0.pptx]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0001.jpeg] to slide[916]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0002.jpeg] to slide[917]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0003.jpeg] to slide[918]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0004.jpeg] to slide[919]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0005.jpeg] to slide[920]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\0006.jpeg] to slide[921]
+Save PPTX
