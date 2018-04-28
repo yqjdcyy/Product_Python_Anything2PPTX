@@ -1,6 +1,6 @@
 
-import subprocess
 import os
+import subprocess
 
 from config import config as conf
 from config import setting
@@ -8,21 +8,21 @@ from log import ACOLogger
 
 # Params
 
-log = ACOLogger()
+logger = ACOLogger().logger
 
 
 # Shell.PDF2IMAGES
 
 def PDF2IMAGES():
     # log
-    log.logger.info("PDF2IMAGES")
+    logger.info("PDF2IMAGES")
 
     # init
     pre()
 
     # run
-    log.logger.debug("java", "-jar", setting.jar, conf.src,
-                     conf.dest, str(conf.dpi), conf.ext)
+    logger.debug("java", "-jar", setting.jar, conf.src,
+                 conf.dest, str(conf.dpi), conf.ext)
     p = subprocess.Popen(["java", "-jar", setting.jar, conf.src,
                           conf.dest, str(conf.dpi), conf.ext],
                          stdout=subprocess.PIPE, stderr=subprocess.PIPE)
@@ -30,11 +30,11 @@ def PDF2IMAGES():
 
     # return
     if stderr:
-        log.logger.error("STDERR: %s", stderr)
+        logger.error("STDERR: %s", stderr)
         return None
     else:
-        log.logger.info("STDOUT: %s", stdout)
-        # log.logger.info(conf.dest)
+        logger.info("STDOUT: %s", stdout)
+        # logger.info(conf.dest)
         return conf.dest
 
 
@@ -42,7 +42,7 @@ def PDF2IMAGES():
 
 
 def PDF2PPTX():
-    log.logger.info("PDF2PPTX")
+    logger.info("PDF2PPTX")
 
     path = PDF2IMAGES()
     if path:
@@ -55,7 +55,7 @@ def PDF2PPTX():
 
 def IMAGES2PPTX():
     # log
-    log.logger.info("IMAGES2PPTX")
+    logger.info("IMAGES2PPTX")
 
     # init
     pre()
@@ -65,23 +65,29 @@ def IMAGES2PPTX():
         bOpen = "false"
 
     # run
-    log.logger.info("IMAGES2PPTX: %s %s %s", exe, conf.src,
-                    conf.dest, setting.template, bOpen)
+    logger.info("IMAGES2PPTX: %s %s %s", exe, conf.src,
+                conf.dest, setting.template, bOpen)
     s, d = subprocess.getstatusoutput(
         [exe,  conf.src, conf.dest, setting.template, ])
-    log.logger.info("STDOUT:")
-    log.logger.info(s)
-    log.logger.info(d)
+    logger.info("STDOUT:")
+    logger.info(s)
+    logger.info(d)
 
     if 0 != s:
-        log.logger.error("STDERR: %s", d)
+        logger.error("STDERR: %s", d)
 
 
 # Shell.DataInit
 
 def pre():
-    if conf.src:
+    if not conf.dest:
+        logger.debug("Pre Config.src=%s", conf.src)
         if os.path.isfile(conf.src):
-            conf.dest = conf.src[0:conf.src.rindex("\\")]
+            idx = 0
+            try:
+                idx = conf.src.rindex("\\")
+            except Exception:
+                idx = conf.src.rindex("/")
+            conf.dest = conf.src[0:idx]
         else:
             conf.dest = conf.src

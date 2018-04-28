@@ -1,16 +1,17 @@
 import sys
 
+
 from PyQt5 import QtCore, QtGui
 from PyQt5.QtWidgets import (QApplication, QCheckBox, QComboBox, QFileDialog,
                              QGridLayout, QLabel, QLineEdit, QPushButton,
                              QSizePolicy, QSpinBox, QWidget)
 
-from log import ACOLogger
+from code.log import ACOLogger
 
 # Params
 types = ["PDF2PPTX", "PDF2IMAGES", "IMAGES2PPTX"]
 extensions = ["jpeg"]
-logger = ACOLogger().logger
+logger = ACOLogger()
 
 
 class Example(QWidget):
@@ -203,17 +204,18 @@ class Example(QWidget):
 
         # call
         t = self.cbType.currentText()
-        logger.info(t)
-        import shell
+        logger.logger.info(t)
+        # TODO ! Fatal when run
+        import code.shell
         if t == types[0]:
-            logger.info("PDF2PPTX")
-            shell.PDF2PPTX()
+            logger.logger.info("PDF2PPTX")
+            # PDF2PPTX()
         elif t == types[1]:
-            logger.info("PDF2IMAGES")
-            shell.PDF2IMAGES()
+            logger.logger.info("PDF2IMAGES")
+            # PDF2IMAGES()
         elif t == types[2]:
-            logger.info("IMAGES2PPTX")
-            shell.IMAGES2PPTX()
+            logger.logger.info("IMAGES2PPTX")
+            # IMAGES2PPTX()
 
         # TODO yqj
         # Return Error to interface
@@ -221,8 +223,8 @@ class Example(QWidget):
 
     def Fill(self):
 
-        from config import config as conf
-        from config import setting
+        from code.config import config as conf
+        from code.config import setting
 
         conf.src = self.leSrc.text()
         if self.leDest.text():
@@ -237,15 +239,6 @@ class Example(QWidget):
         conf.open = open
         if self.leTemp.text():
             setting.template = self.leTemp.text()
-
-        logger.info(
-            "Launcher.Fill\n\tSrc=\t%s\n\tDest\t=%s\n\tDpi\t=%s\n\tExt\t=%s\n\tOpen\t=%s\n\tTemplate\t=%s",
-            conf.src,
-            conf.dest,
-            conf.dpi,
-            conf.ext,
-            conf.open,
-            setting.template)
 
 
 if __name__ == '__main__':

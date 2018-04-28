@@ -6,9 +6,10 @@
 - Java
     - java 1.8
 
-# Switch
-## Help
-- `python launcher.py -h`
+# Feature
+## Command
+### Help
+- `python command.py -h`
     ```
     -h|--help       帮助文档
     -t|--type       请求服务类型                
@@ -22,8 +23,8 @@
     -o|--open       是否于转换后打开相应目录
     ```
 
-## CONFIG
-- `python launcher.py -t 0`
+### CONFIG
+- `python command.py -t 0`
     ```
     {
         "type": ReqType.CONFIG,
@@ -35,18 +36,29 @@
     }
     ```
 
-## PDF2PPTX
-- `python launcher.py -t 1 --src="D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\sliders.pdf"`
+### PDF2PPTX
+- `python command.py -t 1 --src="D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\sliders.pdf"`
 
-## IMAGES2PPTX
-- `python launcher.py -t 2 --src="D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource" -o`
+### IMAGES2PPTX
+- `python command.py -t 2 --src="D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource" -o`
 
-## PDF2IMAGES
-- `python launcher.py -t 3 --src="D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\sliders.pdf"`
+### PDF2IMAGES
+- `python command.py -t 3 --src="D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\sliders.pdf"`
 
+## Interface
+- visual interface for `Command`
+- ![homepage]("/resource/homepage.png")
 
 # Reference
+## Project
 - PDF2Images
     - [yqjdcyy/Utils_Work - PDFBox](https://github.com/yqjdcyy/Utils_Work/tree/master/Convetor/PDF/PDFBox)
 - Images2PPTX
     - [yqjdcyy/Utils_CSharp_AnythingToPPTX](https://github.com/yqjdcyy/Utils_CSharp_AnythingToPPTX)
+
+## Other
+- [Python 异常处理](http://www.runoob.com/python/python-exceptions.html)    
+- [Python rindex()方法](http://www.runoob.com/python/att-string-rindex.html)    
+- [python项目中不同文件夹py源文件之间如何相互调用--Python import中相对路径的问题](https://blog.csdn.net/helloxiaozhe/article/details/76578096)    
+- []()    
+- []()    
