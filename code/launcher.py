@@ -18,7 +18,7 @@ class Example(QWidget):
     def __init__(self):
         super().__init__()
         self.setWindowTitle("转换工具 V1.0")
-        self.setWindowIcon(QtGui.QIcon("resource/64.png"))
+        self.setWindowIcon(QtGui.QIcon("resource/black.ico"))
         self.width = 400
         self.height = 720
         self.Init_UI()
