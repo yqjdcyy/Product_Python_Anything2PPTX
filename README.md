@@ -47,7 +47,7 @@
 
 ## Interface
 - visual interface for `Command`
-- ![homepage]("/resource/homepage.png")
+- ![homepage](/resource/homepage.png)
 
 # Reference
 ## Project
