@@ -56,7 +56,7 @@ def help():
     print(
         "monitor.exe\n\t{0}\n\t{1}\n\t{2}\n\t{3}\n\t{4}\n\t{5}\n\t{6}".format(
             "-h|--help\t帮助文档",
-            "-t|--type\t请求服务类型\n\t\t1:\tPDF2PPTX\n\t\t2:\tIMAGES2PPTX\n\t\t3:\tPDF2IMAGES",
+            "-t|--type\t请求服务类型\n\t\t0:CONFIG\t\n\t\t1:\tPDF2PPTX\n\t\t2:\tIMAGES2PPTX\n\t\t3:\tPDF2IMAGES",
             "-s|--src\t请求转换资源文件路径",
             "-d|--dest\t请求转换资源转换后保存路径",
             "-p|--dpi\tPDF转换参数：指定转换图片 DPI 值",

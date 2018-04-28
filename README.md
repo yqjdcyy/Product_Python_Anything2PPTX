@@ -11,6 +11,7 @@
     ```
     -h|--help       帮助文档
     -t|--type       请求服务类型                
+            0:      CONFIG         
             1:      PDF2PPTX
             2:      IMAGES2PPTX                
             3:      PDF2IMAGES
