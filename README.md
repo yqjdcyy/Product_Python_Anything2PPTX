@@ -46,7 +46,7 @@
 
 ## Interface
 - visual interface for `Command`
-- ![homepage](/resource/homepage.png)
+- ![homepage](/resource/Homepage.png)
 
 # TODO
 - Command
