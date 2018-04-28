@@ -4,21 +4,6 @@
 - Java
     - java 1.8
 
-# TODO
-- Command
-    - ~~日志~~
-    - ~~参数化请求~~
-    - ~~相对转换实现~~
-    - ~~Shell 调用~~
-    - ~~整体联调~~
-- Interface
-    - ~~界面设计& 实现~~
-    - ~~按钮绑定~~
-    - 整体联调
-        - ~~主体功能~~
-        - ~~打开目录时，路径异常~~
-        - ~~是否打开文件夹按钮无效~~
-
 # Feature
 ## Command
 ### Help
@@ -61,6 +46,26 @@
 ## Interface
 - visual interface for `Command`
 - ![homepage](/resource/homepage.png)
+
+# TODO
+- Command
+    - ~~日志~~
+    - ~~参数化请求~~
+    - ~~相对转换实现~~
+    - ~~Shell 调用~~
+    - ~~整体联调~~
+- Interface
+    - ~~界面设计& 实现~~
+    - ~~按钮绑定~~
+    - ~~整体联调~~
+        - ~~主体功能~~
+        - ~~打开目录时，路径异常~~
+        - ~~是否打开文件夹按钮无效~~
+    - ~~打包~~
+
+
+# Pack
+- [Anything2PPTX.zip](http://otzm88f21.bkt.clouddn.com/6b064bf7-fc2e-4003-97cb-430f067af0db.zip)    
 
 
 # Reference
