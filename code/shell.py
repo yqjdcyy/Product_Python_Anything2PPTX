@@ -65,10 +65,10 @@ def IMAGES2PPTX():
         bOpen = "false"
 
     # run
-    logger.info("IMAGES2PPTX: %s %s %s", exe, conf.src,
+    logger.info("IMAGES2PPTX: %s %s %s %s", exe, conf.src,
                 conf.dest, setting.template, bOpen)
     s, d = subprocess.getstatusoutput(
-        [exe,  conf.src, conf.dest, setting.template, ])
+        [exe,  conf.src, conf.dest, setting.template, bOpen])
     logger.info("STDOUT:")
     logger.info(s)
     logger.info(d)

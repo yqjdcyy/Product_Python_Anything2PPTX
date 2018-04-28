@@ -15,7 +15,7 @@ class ReqType(Enum):
 # 请求参数配置
 class Config:
 
-    def __init__(self, type=ReqType.PDF2PPTX, src="", dest="", dpi=96, ext="jpeg", open=True):
+    def __init__(self, type=ReqType.PDF2PPTX, src="", dest="", dpi=96, ext="jpeg", open=False):
         self.type = type
         self.src = src
         self.dest = dest

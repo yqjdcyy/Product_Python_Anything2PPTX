@@ -1,10 +1,23 @@
-
-
 # Pre-Condition
 - System
     - windows 10
 - Java
     - java 1.8
+
+# TODO
+- Command
+    - ~~日志~~
+    - ~~参数化请求~~
+    - ~~相对转换实现~~
+    - ~~Shell 调用~~
+    - ~~整体联调~~
+- Interface
+    - ~~界面设计& 实现~~
+    - ~~按钮绑定~~
+    - 整体联调
+        - ~~主体功能~~
+        - ~~打开目录时，路径异常~~
+        - ~~是否打开文件夹按钮无效~~
 
 # Feature
 ## Command
@@ -49,6 +62,7 @@
 - visual interface for `Command`
 - ![homepage](/resource/homepage.png)
 
+
 # Reference
 ## Project
 - PDF2Images
@@ -59,6 +73,4 @@
 ## Other
 - [Python 异常处理](http://www.runoob.com/python/python-exceptions.html)    
 - [Python rindex()方法](http://www.runoob.com/python/att-string-rindex.html)    
-- [python项目中不同文件夹py源文件之间如何相互调用--Python import中相对路径的问题](https://blog.csdn.net/helloxiaozhe/article/details/76578096)    
-- []()    
-- []()    
+- [python项目中不同文件夹py源文件之间如何相互调用--Python import中相对路径的问题](https://blog.csdn.net/helloxiaozhe/article/details/76578096)

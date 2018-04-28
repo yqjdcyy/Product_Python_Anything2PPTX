@@ -493,3 +493,503 @@ Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/dest\000
 Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/dest\0005.jpeg] to slide[920]
 Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/dest\0006.jpeg] to slide[921]
 Save PPTX
+2018-04-28 11:38:49,358       INFO IMAGES2PPTX
+2018-04-28 11:38:49,359      DEBUG Pre Config.src=D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-28 11:38:49,693       INFO STDOUT:
+2018-04-28 11:38:49,693       INFO 0
+2018-04-28 11:38:49,694       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	../bin/csharp/Template/template.pptx
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\969f7d6f-6186-4e97-bbb6-b37d407f8fd7.pptx]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\Homepage.png] to slide[916]
+Save PPTX
+2018-04-28 11:39:45,096       INFO IMAGES2PPTX
+2018-04-28 11:39:45,096      DEBUG Pre Config.src=D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+2018-04-28 11:39:45,389       INFO STDOUT:
+2018-04-28 11:39:45,389       INFO 0
+2018-04-28 11:39:45,390       INFO Arguments=
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource
+	../bin/csharp/Template/template.pptx
+	false
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\52fa4e2b-b76b-4c85-829b-38e6e23e89f5.pptx]
+Insert image[D:\work\git\yao\python\Utils_Python_Anything2PPTX\resource\Homepage.png] to slide[916]
+Save PPTX
+2018-04-28 11:47:15,074       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=false
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:47:15,075       INFO PDF2PPTX
+2018-04-28 11:47:15,123       INFO PDF2PPTX
+2018-04-28 11:47:15,123       INFO PDF2PPTX
+2018-04-28 11:47:15,124       INFO PDF2IMAGES
+2018-04-28 11:47:15,124      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 11:47:19,759       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:47:19,760       INFO IMAGES2PPTX
+2018-04-28 11:47:20,279       INFO STDOUT:
+2018-04-28 11:47:20,279       INFO 0
+2018-04-28 11:47:20,280       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\716d2c7f-8a7a-47da-a3b8-fc974a93584c.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:47:31,843       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	Dpi	=96
+	Ext	=jpeg
+	Open	=true
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:47:31,845       INFO PDF2PPTX
+2018-04-28 11:47:31,845       INFO PDF2PPTX
+2018-04-28 11:47:31,845       INFO PDF2PPTX
+2018-04-28 11:47:31,845       INFO PDF2IMAGES
+2018-04-28 11:47:35,570       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:47:35,571       INFO IMAGES2PPTX
+2018-04-28 11:47:35,996       INFO STDOUT:
+2018-04-28 11:47:35,996       INFO 0
+2018-04-28 11:47:35,997       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\5f7c91ae-0be6-4e94-809f-00a6344d62c3.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:50:45,922       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=False
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:50:45,923       INFO PDF2PPTX
+2018-04-28 11:50:45,949       INFO PDF2PPTX
+2018-04-28 11:50:45,950       INFO PDF2IMAGES
+2018-04-28 11:50:45,950      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 11:50:49,703       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:50:49,703       INFO IMAGES2PPTX
+2018-04-28 11:50:50,107       INFO STDOUT:
+2018-04-28 11:50:50,108       INFO 0
+2018-04-28 11:50:50,108       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	false
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\84c12a41-3f7c-42c1-bd4e-2e21389c6035.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:55:47,722       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:55:47,724       INFO PDF2PPTX
+2018-04-28 11:55:47,734       INFO PDF2PPTX
+2018-04-28 11:55:47,735       INFO PDF2IMAGES
+2018-04-28 11:55:47,735      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 11:55:51,408       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:55:51,408       INFO IMAGES2PPTX
+2018-04-28 11:55:51,846       INFO STDOUT:
+2018-04-28 11:55:51,846       INFO 0
+2018-04-28 11:55:51,847       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\d292f355-230c-489b-9b8e-bef74dae8d9b.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:55:52,066       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:55:52,068       INFO PDF2PPTX
+2018-04-28 11:55:52,068       INFO PDF2PPTX
+2018-04-28 11:55:52,068       INFO PDF2IMAGES
+2018-04-28 11:55:56,041       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:55:56,041       INFO IMAGES2PPTX
+2018-04-28 11:55:56,468       INFO STDOUT:
+2018-04-28 11:55:56,468       INFO 0
+2018-04-28 11:55:56,468       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\7cc39c37-5158-48cd-b510-72db1bfc7274.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:55:56,893       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:55:56,900       INFO PDF2PPTX
+2018-04-28 11:55:56,901       INFO PDF2PPTX
+2018-04-28 11:55:56,901       INFO PDF2IMAGES
+2018-04-28 11:56:00,938       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:56:00,938       INFO IMAGES2PPTX
+2018-04-28 11:56:01,374       INFO STDOUT:
+2018-04-28 11:56:01,374       INFO 0
+2018-04-28 11:56:01,375       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\efc2c38f-e02d-45b4-821f-041abc272405.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:56:01,769       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:56:01,771       INFO PDF2PPTX
+2018-04-28 11:56:01,771       INFO PDF2PPTX
+2018-04-28 11:56:01,771       INFO PDF2IMAGES
+2018-04-28 11:56:05,892       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:56:05,893       INFO IMAGES2PPTX
+2018-04-28 11:56:06,336       INFO STDOUT:
+2018-04-28 11:56:06,336       INFO 0
+2018-04-28 11:56:06,337       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\aa12b459-d01f-49f1-bd87-92052d9a9f7d.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:56:06,339       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:56:06,340       INFO PDF2PPTX
+2018-04-28 11:56:06,341       INFO PDF2PPTX
+2018-04-28 11:56:06,341       INFO PDF2IMAGES
+2018-04-28 11:56:10,577       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:56:10,578       INFO IMAGES2PPTX
+2018-04-28 11:56:11,011       INFO STDOUT:
+2018-04-28 11:56:11,011       INFO 0
+2018-04-28 11:56:11,012       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\ecb38bea-ac58-46f0-b0ba-9330eda2d2ca.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:56:59,828       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:56:59,832       INFO PDF2PPTX
+2018-04-28 11:56:59,843       INFO PDF2PPTX
+2018-04-28 11:56:59,844       INFO PDF2IMAGES
+2018-04-28 11:56:59,844      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 11:57:03,569       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:57:03,570       INFO IMAGES2PPTX
+2018-04-28 11:57:04,010       INFO STDOUT:
+2018-04-28 11:57:04,010       INFO 0
+2018-04-28 11:57:04,010       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\c9a9e3e4-f762-4ebd-91d1-bc284632b6b3.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:57:42,231       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:57:42,233       INFO PDF2PPTX
+2018-04-28 11:57:42,244       INFO PDF2PPTX
+2018-04-28 11:57:42,245       INFO PDF2IMAGES
+2018-04-28 11:57:42,245      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 11:57:45,999       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:57:45,999       INFO IMAGES2PPTX
+2018-04-28 11:57:46,435       INFO STDOUT:
+2018-04-28 11:57:46,436       INFO 0
+2018-04-28 11:57:46,437       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\df51ad2c-9fe8-4f7c-848d-ab9e7d0de154.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:57:49,611       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:57:49,613       INFO PDF2PPTX
+2018-04-28 11:57:49,614       INFO PDF2PPTX
+2018-04-28 11:57:49,614       INFO PDF2IMAGES
+2018-04-28 11:57:53,377       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 11:57:53,377       INFO IMAGES2PPTX
+2018-04-28 11:57:53,806       INFO STDOUT:
+2018-04-28 11:57:53,806       INFO 0
+2018-04-28 11:57:53,807       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\96f8a264-87d8-460b-8c7f-e8b2e2089ada.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 11:59:06,842       INFO Launcher.Fill
+	Src=	
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 11:59:06,846       INFO PDF2PPTX
+2018-04-28 11:59:06,858       INFO PDF2PPTX
+2018-04-28 11:59:06,858       INFO PDF2IMAGES
+2018-04-28 11:59:06,859      DEBUG Pre Config.src=
+2018-04-28 11:59:06,982      ERROR STDERR: b'Exception in thread "main" java.lang.IllegalArgumentException: \xce\xb4\xd6\xb8\xb6\xa8 PDF \xce\xc4\xbc\xfe\xc2\xb7\xbe\xb6\r\n\tat org.springframework.util.Assert.isTrue(Assert.java:68)\r\n\tat com.yao.utils.PDFBoxUtils.Convert(PDFBoxUtils.java:48)\r\n\tat com.yao.main.PDFBoxMain.run(PDFBoxMain.java:55)\r\n\tat com.yao.main.PDFBoxMain.main(PDFBoxMain.java:21)\r\n'
+2018-04-28 11:59:42,250       INFO 
+2018-04-28 11:59:44,436       INFO 
+2018-04-28 11:59:48,445       INFO 
+2018-04-28 11:59:50,532       INFO 
+2018-04-28 11:59:57,321       INFO 
+2018-04-28 12:00:06,480       INFO D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 12:00:27,581       INFO 
+2018-04-28 12:00:29,781       INFO D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 12:01:55,290       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 12:01:55,293       INFO PDF2PPTX
+2018-04-28 12:01:55,305       INFO PDF2PPTX
+2018-04-28 12:01:55,305       INFO PDF2IMAGES
+2018-04-28 12:01:55,306      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 12:01:59,255       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 12:01:59,256       INFO IMAGES2PPTX
+2018-04-28 12:01:59,695       INFO STDOUT:
+2018-04-28 12:01:59,695       INFO 0
+2018-04-28 12:01:59,696       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\f7fd5688-09cc-40f8-bc7b-e752b93319d9.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 12:09:09,405       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 12:09:09,406       INFO PDF2PPTX
+2018-04-28 12:09:09,419       INFO PDF2PPTX
+2018-04-28 12:09:09,420       INFO PDF2IMAGES
+2018-04-28 12:09:09,420      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 12:09:13,125       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 12:09:13,126       INFO IMAGES2PPTX
+2018-04-28 12:09:13,594       INFO STDOUT:
+2018-04-28 12:09:13,594       INFO 0
+2018-04-28 12:09:13,595       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\c0e211bd-0a0b-47d4-899c-53dadd11e711.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX
+2018-04-28 12:09:26,010       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 12:09:26,012       INFO PDF2PPTX
+2018-04-28 12:09:26,012       INFO PDF2PPTX
+2018-04-28 12:09:26,012       INFO PDF2IMAGES
+2018-04-28 12:09:29,794       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 12:09:29,795       INFO IMAGES2PPTX
+2018-04-28 12:09:30,217       INFO STDOUT:
+2018-04-28 12:09:30,217       INFO 0
+2018-04-28 12:09:30,218       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\00dcf3e3-facf-435d-843a-b4b9a527caa0.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/output\0006.jpeg] to slide[921]
+Save PPTX
+2018-04-28 13:55:58,631       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 13:55:58,633       INFO PDF2PPTX
+2018-04-28 13:55:58,644       INFO PDF2PPTX
+2018-04-28 13:55:58,644       INFO PDF2IMAGES
+2018-04-28 13:55:58,645      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src/sliders.pdf
+2018-04-28 13:56:02,615       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 13:56:02,616       INFO IMAGES2PPTX
+2018-04-28 13:56:03,102       INFO STDOUT:
+2018-04-28 13:56:03,102       INFO 0
+2018-04-28 13:56:03,107       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\e44a0b2b-2185-4739-af80-85144678479e.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/result/src\0006.jpeg] to slide[921]
+Save PPTX
+2018-04-28 13:57:27,029       INFO Launcher.Fill
+	Src=	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+	Dest	=
+	Dpi	=96
+	Ext	=jpeg
+	Open	=True
+	Template	=../bin/csharp/Template/template.pptx
+2018-04-28 13:57:27,031       INFO PDF2PPTX
+2018-04-28 13:57:27,043       INFO PDF2PPTX
+2018-04-28 13:57:27,043       INFO PDF2IMAGES
+2018-04-28 13:57:27,043      DEBUG Pre Config.src=D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource/sliders.pdf
+2018-04-28 13:57:30,876       INFO STDOUT: b'PDF TO IMAGE (1/ 6)\nPDF TO IMAGE (2/ 6)\nPDF TO IMAGE (3/ 6)\nPDF TO IMAGE (4/ 6)\nPDF TO IMAGE (5/ 6)\nPDF TO IMAGE (6/ 6)\n'
+2018-04-28 13:57:30,876       INFO IMAGES2PPTX
+2018-04-28 13:57:31,358       INFO STDOUT:
+2018-04-28 13:57:31,359       INFO 0
+2018-04-28 13:57:31,360       INFO Arguments=
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource
+	../bin/csharp/Template/template.pptx
+	true
+Copy Template PPTX from [../bin/csharp/Template/template.pptx] to [D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\b9c3cef3-9924-4b41-8cad-4df99cc0cc93.pptx]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0001.jpeg] to slide[916]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0002.jpeg] to slide[917]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0003.jpeg] to slide[918]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0004.jpeg] to slide[919]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0005.jpeg] to slide[920]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\0006.jpeg] to slide[921]
+Insert image[D:/work/git/yao/python/Utils_Python_Anything2PPTX/resource\Homepage.png] to slide[922]
+Save PPTX

@@ -150,6 +150,10 @@ class Example(QWidget):
             self.bChooseTemp.setEnabled(False)
             self.cbOpen.setEnabled(False)
 
+        self.btnOK.setEnabled(False)
+        if self.leSrc.text():
+            self.btnOK.setEnabled(True)
+
     def BTempClicked(self):
         options = QFileDialog.Options() | QFileDialog.DontUseNativeDialog
         path, _ = QFileDialog.getOpenFileName(
@@ -184,6 +188,7 @@ class Example(QWidget):
 
         if path:
             self.leSrc.setText(path)
+            self.Control()
 
     def LESrcChanged(self, text):
         self.result.setText(text)
@@ -193,11 +198,6 @@ class Example(QWidget):
         self.Control()
 
     def Run(self):
-        # check
-        if not self.leSrc.text():
-            self.result.setText("Resouce is empty")
-            return
-
         # fill
         self.Fill()
 
@@ -206,18 +206,15 @@ class Example(QWidget):
         logger.info(t)
         import shell
         if t == types[0]:
-            logger.info("PDF2PPTX")
             shell.PDF2PPTX()
         elif t == types[1]:
-            logger.info("PDF2IMAGES")
             shell.PDF2IMAGES()
         elif t == types[2]:
-            logger.info("IMAGES2PPTX")
             shell.IMAGES2PPTX()
 
         # TODO yqj
         # Return Error to interface
-        self.result.setText("FINISH")
+        self.result.setText(t + " FINISH")
 
     def Fill(self):
 
@@ -231,10 +228,7 @@ class Example(QWidget):
             conf.dpi = self.sbDPI.text()
         if self.cbExt.currentText():
             conf.ext = self.cbExt.currentText()
-        open = "true"
-        if not self.cbOpen.isChecked():
-            open = "false"
-        conf.open = open
+        conf.open = self.cbOpen.isChecked()
         if self.leTemp.text():
             setting.template = self.leTemp.text()
 
